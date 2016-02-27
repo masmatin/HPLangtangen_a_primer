@@ -1,0 +1,13 @@
+def mymax(a):
+  mx= a[0]
+  for ai in a:
+    if ai > mx:
+      mx= ai
+  return mx
+
+def mymin(a):
+  mn= a[0]
+  for ai in a:
+    if ai < mn:
+      mn= ai
+  return mn
