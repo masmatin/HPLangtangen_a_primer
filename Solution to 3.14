@@ -1,0 +1,10 @@
+import math
+
+def gauss(x, m=0, s=1):
+  return 1.0/math.sqrt(2*math.pi)/s*math.exp(-0.5*((x-m)/s)**2)
+
+
+no= 11
+for i in range(no):
+  x= -5.0 + i*10.0/(no-1)
+  print x, gauss(x)
