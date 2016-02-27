@@ -1,0 +1,4 @@
+def count_pairs(dna, pair):
+  return sum(pair == dna[i:i+2] for i in range(len(dna)-1))
+
+print count_pairs('ACTGCTATCCATTT', 'AT')
